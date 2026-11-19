@@ -1,0 +1,16 @@
+site_name: ZTDS Python Reference Documentation
+site_description: Canonical Python reference implementation of Zero-Trust Data Sanitization (IETF draft-sibiryakov-ztds-protocol-02, RFC v1.0).
+site_url: https://ztds.readthedocs.io/
+repo_url: https://github.com/moxno/ztds-python
+repo_name: moxno/ztds-python
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: cyan
+nav:
+  - Overview & Quickstart: index.md
+  - Reproducible Benchmark vs. Proxies: benchmark-vs-presidio.md
+  - GDPR Art. 32 & HIPAA Safe Harbor: gdpr-hipaa-safe-harbor.md
+  - Certified Implementations: implementations.md
